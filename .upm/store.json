@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":2,"languages":{"nodejs-npm":{"specfileHash":"5b6831f6f9b1cf4b09d9bf7e2e6cd36f","lockfileHash":"6275f17b27495357638dc359842161df","guessedImports":["@babel/register","cors","dotenv","express","body-parser","chai","mocha"],"guessedImportsHash":"f5643201af064e5ef9f6a2273b64fb34"}}}
+=======
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"fd76957f4d304c385f51f5c7ba865567","lockfileHash":"d51ddaae60cbcc0af798249534b57a9e","guessedImports":["cors","dotenv","express","body-parser","chai","mocha","@babel/register"],"guessedImportsHash":"f7992a106782e9a7cb562fcadf9515bf"}}}
+>>>>>>> c04fb1283481595eabd8b7ccbe1be22d8f6e6a69

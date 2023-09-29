@@ -10,9 +10,15 @@ message = "We see that you are using require(...) inside your code. We currently
 channel = "stable-22_11"
 
 [env]
+<<<<<<< HEAD
 XDG_CONFIG_HOME = "$REPL_HOME/.config"
 PATH = "$REPL_HOME/.config/npm/node_global/bin:$REPL_HOME/node_modules/.bin"
 npm_config_prefix = "$REPL_HOME/.config/npm/node_global"
+=======
+XDG_CONFIG_HOME = "/home/runner/$REPL_SLUG/.config"
+PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin"
+npm_config_prefix = "/home/runner/$REPL_SLUG/.config/npm/node_global"
+>>>>>>> c04fb1283481595eabd8b7ccbe1be22d8f6e6a69
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config", "package.json", "package-lock.json"]
@@ -68,8 +74,11 @@ support = true
       stopOnEntry = false
       type = "pwa-node"
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c04fb1283481595eabd8b7ccbe1be22d8f6e6a69
 [languages]
 
 [languages.javascript]
@@ -80,5 +89,8 @@ start = "typescript-language-server --stdio"
 
 [deployment]
 run = ["sh", "-c", "npm run start"]
+<<<<<<< HEAD
 deploymentTarget = "cloudrun"
 ignorePorts = false
+=======
+>>>>>>> c04fb1283481595eabd8b7ccbe1be22d8f6e6a69
